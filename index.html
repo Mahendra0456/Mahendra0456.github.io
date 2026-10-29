@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -2688,7 +2688,7 @@ html{max-width:100%;overflow-x:hidden;}
       const user = await res.json();
       const projCount = statEls[0];
       if (projCount && typeof user.public_repos === 'number'){
-        projCount.dataset.count = 5;
+        projCount.dataset.count = 6;
       }
     } catch (e) {
       // silent fallback — static defaults already in the markup
